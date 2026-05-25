@@ -1,0 +1,3 @@
+@echo off
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -EncodedCommand JgAgACIAQwA6AFwAVQBzAGUAcgBzAFwAYQBkAG0AaQBuAFwARABvAGMAdQBtAGUAbgB0AHMAXABsURdP91OwZUhyXABpAG4AcwB0AGEAbABsAF8AdwBlAGMAaABhAHQAXwB2AGkAcgBhAGwAXwB3AHIAaQB0AGUAcgBfAHMAawBpAGwAbAAuAHAAcwAxACIA
+pause
