@@ -11,6 +11,8 @@ Write in Chinese for WeChat Official Account content. Help the user move from to
 
 Prioritize the user's established account lane unless they explicitly replace it: middle-aged readers' family, relationships, money, health, emotional security, and relaxed daily living. For topic selection, first scan current hot topics when the user asks for today's topic or热点选题, then keep only angles that fit this lane.
 
+For the current account's rural/county audience, one-minute retention structure, authoritative screenshot rules, and policy-cover style, read `references/current-account-production-rules.md`.
+
 Do not expose hidden chain-of-thought. When useful, show a brief visible work note instead:
 
 ```text
@@ -57,8 +59,12 @@ When the request includes cover images, body images, WeChat formatting, or draft
 - Keep body images bright and breathable: natural light, warm light colors, clean everyday scenes.
 - Avoid large dark areas, night scenes, backlit silhouettes, gray-black low saturation, and oppressive visual mood unless the user explicitly asks.
 - Use the established layout style when packaging: narrow body text, generous whitespace, rounded red numbered section headings, a few red emphasis lines, and one horizontal image after each major section.
+- For policy and livelihood articles, separate cover logic from body-image logic: body images may use authoritative source screenshots, while the cover should normally be a clean headline-led poster.
+- For packaging, section-number image generation, local preview HTML, or WeChat draft-box import details, read `references/wechat-layout-import.md`.
 - For this workspace's draft-box flow, check `output/run_wechat_draft_ascii.cmd`, `output/publish_custom_draft.py`, and `output/themes/seven-pages-soft.yaml` when needed.
 
 ## Reference
 
 Read `references/prompt-framework.md` when the user asks for title formulas, detailed article-structure analysis, full drafting standards, or prompt-style command behavior derived from the source prompt.
+Read `references/current-account-production-rules.md` for the current account's audience, retention, policy screenshot, cover, and packaging rules.
+Read `references/wechat-layout-import.md` when the user asks for article packaging, cover/body images, section-number styling, local preview HTML, or direct import/update to the WeChat draft box.
